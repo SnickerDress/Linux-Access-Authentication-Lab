@@ -5,6 +5,7 @@
 
 
 Alice and Root Showing Permissions while Bob gets denied
+
 ![Pasted image 20260914041416](assets/Pasted%20image%2020260914041416.png)
 
 - `sudo -u bob cd ...` **wasn’t a valid access test** because `cd` is built into the shell. Bob `ls` and `touch` tests were valid.
